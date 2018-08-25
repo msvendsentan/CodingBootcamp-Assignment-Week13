@@ -7,13 +7,14 @@ var path = require("path");
 
 // Express Setup
 var app = express();
-var port = 8080;
+var port = process.env.PORT || 8080;
 
 // Data Parsing Setup
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json());
 
 // Routing
+console.log(apiRoutes);
 app.use("/", htmlRoutes);
 app.use("/api", apiRoutes);
 
