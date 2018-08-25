@@ -1,0 +1,24 @@
+{
+  "name": "codingbootcamp-assignment-week13",
+  "version": "1.0.0",
+  "description": "A simple \"friend finder\" express.js app for Week 13 of UofT's Coding Bootcamp",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/msvendsentan/CodingBootcamp-Assignment-Week13.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/msvendsentan/CodingBootcamp-Assignment-Week13/issues"
+  },
+  "homepage": "https://github.com/msvendsentan/CodingBootcamp-Assignment-Week13#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.3"
+  }
+}
